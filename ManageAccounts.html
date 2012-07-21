@@ -1,0 +1,94 @@
+<!DOCTYPE html">
+<html>
+<head>
+<title>Pick-up Master</title>
+
+<link href="styles.css" type="text/css" rel="stylesheet"/>
+</head>
+    
+<body>
+    
+ <!--********************************************
+***************Top Heading of the web format*****
+ -********************************************-->
+ <div class="header">
+ <div id="Logo">
+    <p>
+        <a href="AdminMainPage.html"><img src="sample.jpg" height="35" width="55"></a> 
+        <div class="control">
+        <a>Logout</a>   
+        <a href="aboutus.html">About us</a>
+        </div>
+    </p>
+ </div>
+ </div>
+ <hr style="width: 100%; height: 2em; border: 1em solid #288888;"></hr>
+  <!--**********************************************
+***************End of the Top Heading **************
+ -***********************************************-->   
+ 
+  <!--**************************************************
+***************Profile Section of the Web***************
+ -******************************************************--> 
+        <div class="body"> <!-- Class "body" starts-->
+                <div id="profile">		
+		<a href="profileadmin.html"> <img src="sample.jpg" height="100" width ="80"></a>
+		</div>	
+ 
+		
+                <a href="profileadmin.html"> Jeffrey Liu</a>
+                          
+ 
+                <div id="permission">
+                    <a href="profileadmin.html"> Administrator</a>
+                </div>
+			
+ <!--******************************************
+***************End of profile*************
+ -********************************************-->
+		
+		
+ <!--*************************************************************************
+***************Operation Section: Insert Operations of the web****************
+ -**************************************************************************-->			
+           
+			<div class ="Operations">
+                         <p>
+        <!--************search function for account management. Use google for now. Will implement in phase 4.****************-->
+                             <form method="get" action="http://www.google.com/search">
+
+                            <input type="text"   name="q" size="31"
+                             maxlength="255" value="" />
+                            <input type="submit" value="Search Accounts" />
+                            <input type="radio"  name="sitesearch" value="" />User Name
+ 
+                            <input type="radio"  name="sitesearch"
+                            value="" checked /> User ID<br />
+                            </form>
+                          
+    <!--**********************search function for managing accounts ends here******************************************-->                         
+          <input type="submit" value="List All Accounts"/>                    
+        <?php include 'Friend.php'?>
+                        </p>	
+                        </div>
+	</div> <!--class body ends since "profile" section-->
+ <!--**************************8**********
+***************End of Operationst********
+ -*************************************-->			
+		
+		
+ <!--***************************************
+***************Footer of the Web*************
+ -*****************************************-->	
+
+<hr style="width: 100%; height: 2em; border: 1em solid #288888;"></hr>
+	
+<div class="control"> <p> Group:"the magic" @ CSC309 </p>   </div>           
+
+ <!--******************************************
+***************End of the web footer **********
+ -*******************************************-->
+
+
+</body>
+</html>

@@ -1,0 +1,68 @@
+/* STYLE GUIDE REFERENCE
+-----------------------------------------
+Main:			#444444
+Lt. Grey:		#e6e6e6
+Alt. Grey:		#d5d5d5
+
+Blue:			#2d6cbe
+Dk. Blue:		#1d4483
+Lt. Blue:		#e5edf7
+Alt. Blue:		#bed2eb
+
+Orange:			#f8810a
+Dk. Orange:		#fc4d0b
+Lt. Orange:		#fef0e1
+Alt. Orange:	#fdd8b3
+
+Font Tree:		"Lucida Grande", "Lucida Sans", Arial, sans-serif
+Alt. Fonts:		"Helvetica Neue", Helvetica, Arial, sans-serif
+*/
+
+
+
+
+/* Event Display */
+.events { padding-top: 7px; width: 600px;   }
+.events dt { width: 80px; height:40px; float: left; padding: 10px 10px 0 0; text-align: right; font-size: 11px; line-height: 30px; border-right: 1px solid #eee; }
+.events dt strong { display: block; }
+.events dt a.save { float: right !important; margin: 10px 0 0 3px !important; }
+.events dd { padding: 10px 12px 12px 104px; border-bottom: 1px solid #eee; }
+.events dd h4 { font: normal 16px "Helvetica Neue", Helvetica, Arial, sans-serif; }
+.events dd h4 a.event_title { display: block;  white-space: nowrap; overflow: hidden;}
+.events dd h4 a.locale { color: #f8810a; white-space: nowrap; overflow: hidden;}
+.events dd h4 a.locale:hover { color: #fc4d0b; white-space: nowrap; overflow: hidden;}
+.events dd p.attendees { margin-top: 6px; font-size: 11px; color: #aaa; white-space: nowrap; overflow: hidden;}
+.events dd p.attendees a { color: #aaa; white-space: nowrap; overflow: hidden;}
+.events dd p.attendees a:hover { color: #888; white-space: nowrap; overflow: hidden;}
+
+.events dt.alt, .events dd.alt { background: #f5f5f5; }
+
+
+
+
+.friends { padding-top: 7px; width: 600px;   }
+.friends dt { width: 80px; height:40px; float: left; padding: 10px 10px 0 0; text-align: right; font-size: 11px; line-height: 30px; border-right: 1px solid #eee; }
+.friends dt strong { display: block; }
+.friends dt a.save { float: right !important; margin: 10px 0 0 3px !important; }
+.friends dd { padding: 10px 12px 12px 0px; border-bottom: 1px solid #eee; }
+.friends dd h4 { font: normal 16px "Helvetica Neue", Helvetica, Arial, sans-serif; }
+.friends dd h4 a.event_title { display: block;  white-space: nowrap; overflow: hidden;}
+.friends dd h4 span.last_game {font-size: 10px; color: #8A1C00;  white-space: nowrap; overflow: hidden;}
+.friends dd h4 a.locale { color: #f8810a; white-space: nowrap; overflow: hidden;}
+.friends dd h4 a.locale:hover { color: #fc4d0b; white-space: nowrap; overflow: hidden;}
+.friends dd p.attendees { margin-top: 6px; font-size: 9px; color: #aaa; white-space: nowrap; overflow: hidden;}
+.friends dd p.attendees a { color: #aaa; white-space: nowrap; overflow: hidden;}
+.friends dd p.attendees a:hover { color: #888; white-space: nowrap; overflow: hidden;}
+.friends dd.delete_btn {float:right; padding-top:25px; border: none;}
+ }
+.friends dt.alt, .friends dd.alt { background: #f5f5f5; }
+
+
+
+.create_game { padding-top: 7px; width: 600px;   }
+.create_game tr {padding:10px 10px 10px 10px;}
+
+
+
+}
+

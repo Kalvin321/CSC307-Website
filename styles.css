@@ -1,0 +1,38 @@
+#Logo /*define place of the website logo*/
+{
+position:static;
+top:0px;
+left:0px;
+}
+
+.control /*define place of the logout and about us icon*/
+{
+position:relative;
+top:-35px;
+left:+900px;
+}
+
+.header
+{
+background-color:red;
+}
+
+.body
+{
+background-color:#b0c4de;
+}
+
+#permission /*location of the permission: admin and user*/
+{
+position: relative;
+
+left: +90px;
+top: -100px;
+}
+
+
+.Operations /*operation section class*/
+{
+position:relative;
+left:+400px;
+}

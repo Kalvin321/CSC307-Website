@@ -1,0 +1,56 @@
+/* STYLE GUIDE REFERENCE
+-----------------------------------------
+Main:			#444444
+Lt. Grey:		#e6e6e6
+Alt. Grey:		#d5d5d5
+
+Blue:			#2d6cbe
+Dk. Blue:		#1d4483
+Lt. Blue:		#e5edf7
+Alt. Blue:		#bed2eb
+
+Orange:			#f8810a
+Dk. Orange:		#fc4d0b
+Lt. Orange:		#fef0e1
+Alt. Orange:	#fdd8b3
+
+Font Tree:		"Lucida Grande", "Lucida Sans", Arial, sans-serif
+Alt. Fonts:		"Helvetica Neue", Helvetica, Arial, sans-serif
+*/
+
+
+
+/* == CORE RESET
+-------------------------------------------------------------------------------- */
+html, body { font-size: 10px; margin: 0; padding: 0; line-height: 1; }
+html, body, div, span, object, h1, h2, h3, h4, h5, h6, p, blockquote, a, abbr, code, del, em, img, strong, sub, sup, dl, dt, dd, ol, ul, li, form, label, table, tbody, thead, tr, th, td { margin: 0; padding: 0; border: 0; outline: 0; vertical-align: baseline; background: transparent; }
+p, a, div, td, input, textarea, li, dt, dd, strong, em, span, legend { font-size: 1em; }
+p, div, td, dt, dd, label, li, legend { font-family: "Lucida Grande", "Lucida Sans", Arial, Verdana, sans-serif; }
+
+
+img { border: none; }
+fieldset{ width: 650px;}
+
+
+table, td, form {  border-collapse: collapse; border-spacing: 0; }
+
+
+/* == TYPE & GENERAL DISPLAY
+-------------------------------------------------------------------------------- */
+body { color: #424242; background: white; border-top: 2px solid #f8810a; }
+p { font-size: 12px; }
+a { font-family: inherit; color: #2d6cbe; cursor: pointer; }
+a:hover { color: #1d4483; text-decoration: none; }
+
+h1, h2, h3, h4, h1 a, h2 a, h3 a, h4 a { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; white-space: nowrap; overflow: hidden; }
+h1.main-title { margin-bottom: 21px; }
+h1 a, h2 a { text-decoration: none; }
+h4 {font-size: 10px;}
+h5 { font-size: 10px; padding: 3px 0; }
+
+
+
+
+
+
+
